@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Register</div>
+                    <div class="panel-heading">Creació de nou usuari</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form" method="POST" action="{{ url('auth/register') }}">
+                        <form class="form-horizontal" role="form" method="POST" action="">
                             {!! csrf_field() !!}
 
                             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
@@ -63,6 +63,17 @@
                                         <strong>{{ $errors->first('password_confirmation') }}</strong>
                                     </span>
                                     @endif
+                                </div>
+                            </div>
+                            <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
+                                <label class="col-md-4 control-label">Rol</label>
+
+                                <div class="col-md-6">
+                                    <select name="role">
+                                        <option value="student">Alumne</option>
+                                        <option value="teacher">Professor</option>
+                                        <option value="admin">Administrador</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-group">

@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/',['as' => 'welcome', function () {
 
     if(Auth::guest()) {
         return view('welcome');
@@ -19,8 +19,9 @@ Route::get('/', function () {
     else {
         return Redirect::route('dashboard');
     }
-});
+}]);
 Route::get('/home',['as' => 'dashboard', function() {
+    
     if(Auth::guest()) {
         return view('welcome');
     }
@@ -37,3 +38,8 @@ Route::get('auth/register', ['as' => 'register', 'uses' => 'Auth\AuthController@
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/users', array('as' => 'users', 'uses' => 'AdminController@userList'));
+    Route::get('/users/create', array('as' => 'users.create', 'uses' => 'AdminController@formUser'));
+    Route::post('/users/create', array('as' => 'users.create', 'uses' => 'AdminController@createUser'));
+});
