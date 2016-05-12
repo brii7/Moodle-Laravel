@@ -23,6 +23,7 @@
             margin-right: 6px;
         }
     </style>
+    @yield('head')
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default">
@@ -46,7 +47,11 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+                    @if(Auth::user()->isAdmin())
+                        <li><a href="{{ route('users') }}">Usuaris</a></li></li>
+                    @endif
                     <li><a href="{{ url('/home') }}">Panell</a></li>
+                    <li><a href="{{ route('cursos') }}">Tots els cursos</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -59,11 +64,10 @@
     <div class="flash-message">
         @foreach (['danger', 'warning', 'success', 'info'] as $msg)
             @if(Session::has('alert-' . $msg))
-
                 <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
             @endif
         @endforeach
-    </div> <!-- end .flash-message -->
+    </div>
     @yield('content')
 
     <!-- JavaScripts -->
@@ -74,5 +78,7 @@
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <!-- App scripts -->
     @stack('scripts')
+    <!-- Custom scripts -->
+    @yield('scripts')
 </body>
 </html>

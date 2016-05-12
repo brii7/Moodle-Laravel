@@ -24,5 +24,21 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public function cursos()
+    {
+        return $this->belongsToMany('App\Curs');
+    }
+
+    public function isAdmin(){
+        if($this->role == 'admin'){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    public function isTeacher(){
+        
+    }
     
 }
