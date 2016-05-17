@@ -17,10 +17,10 @@
                             Benvingut al teu panell de control.
                         </div>
                         <div class="panel-body">
-                            @if(Auth::user()->role == 'admin')
-                            <a href="{{route('users.create')}}"><button type="button" class="btn btn-primary">Afegir nou usuari</button></a>
+                            @if(Auth::user()->isAdmin())
+                                <a href="{{route('users.create')}}"><button type="button" class="btn btn-primary">Afegir nou usuari</button></a>
+                                <a href="{{route('cursos.new')}}"><button type="button" class="btn btn-primary">Afegir un curs</button></a>
                             @endif
-                            <a href=""><button type="button" class="btn btn-primary">View your tasks</button></a>
                             <a href=""><button type="button" class="btn btn-primary">Change your password</button></a>
                         </div>
                     </div>
