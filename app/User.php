@@ -38,7 +38,21 @@ class User extends Authenticatable
     }
     
     public function isTeacher(){
-        
+
+        if($this->role == 'teacher'){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
+    public function isStudent(){
+        if($this->role == 'student'){
+            return true;
+        }else{
+            return false;
+        }
     }
     
 }
