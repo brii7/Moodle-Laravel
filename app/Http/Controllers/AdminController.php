@@ -58,7 +58,7 @@ class AdminController extends Controller
             correu no ha d'estar en ús");
         }
 
-        return Redirect::route('users.create')->withMessage("Usuari creat correctament");
+        return Redirect::route('users.create')->with('message',"Usuari creat correctament");
 
     }
 }
