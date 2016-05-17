@@ -49,6 +49,10 @@ Route::get('/cursos', ['as' => 'cursos', 'uses' => 'CursController@index']);
 Route::group(['prefix' => 'cursos'], function () {
     Route::get('/new', array('as' => 'cursos.new', 'uses' => 'CursController@createForm'));
     Route::post('/new', array('as' => 'cursos.newpost', 'uses' => 'CursController@create'));
+    Route::delete('/delete/{id}', array('as' => 'cursos.delete', 'uses' => 'CursController@delete'));
+    Route::get('/{id}/show', array('as' => 'cursos.show', 'uses' => 'CursController@show'));
+    Route::post('/{id}/inscriure', array('as' => 'cursos.inscriure', 'uses' => 'CursController@inscriure'));
+    Route::post('/{id}/esborrar', array('as' => 'cursos.esborrar', 'uses' => 'CursController@anularInscripcio'));
     Route::get('/users', array('as' => 'cursos.users', 'uses' => 'CursController@userList'));
     Route::get('/users/add', array('as' => 'cursos.createuser', 'uses' => 'CursController@formUser'));
     Route::post('/users/add', array('as' => 'cursos.createuserpost', 'uses' => 'CursController@createUser'));
