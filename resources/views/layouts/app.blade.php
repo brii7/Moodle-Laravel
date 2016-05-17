@@ -56,6 +56,7 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a>Benvingut,  <b>{{Auth::user()->name}}</b></a></li>
                     <li><a href="{{ route('logout') }}">Sortir</a></li>
                 </ul>
             </div>
@@ -68,6 +69,7 @@
             @endif
         @endforeach
     </div>
+    @include('partials.messages')
     @yield('content')
 
     <!-- JavaScripts -->
