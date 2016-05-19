@@ -11,13 +11,13 @@ class Task extends Model
      *
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'description', 'data_finalització'];
 
     /**
      * Get the user that owns the task.
      */
-    public function curs()
+    public function UF()
     {
-        return $this->belongsTo(Curs::class);
+        return $this->belongsTo(UnitatFormativa::class, 'uf_id');
     }
 }
