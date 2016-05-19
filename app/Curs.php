@@ -9,7 +9,7 @@ class Curs extends Model
     /*
      * Atributs que es poden emplenar "manualment".
      */
-    protected $fillable = ['name', 'teacher_id'];
+    protected $fillable = ['name', 'teacher_id', 'description'];
 
     /*
      * Taula on correspon el model
@@ -25,10 +25,10 @@ class Curs extends Model
         return $this->belongsToMany('App\User');
     }
     /*
-     * Definir la relació amb les tasques
+     * Definir la relació amb les tasques i Unitats Formatives
      */
-    public function tasks(){
-        return $this->hasMany(Task::class);
+    public function UFs(){
+        return $this->hasMany(UnitatFormativa::class, 'course_id');
     }
 
     /*
