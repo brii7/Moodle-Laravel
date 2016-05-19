@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\UnitatFormativa;
 use Illuminate\Support\Facades\Input;
 use App\Curs;
 use App\User;
@@ -16,9 +17,10 @@ class CursController extends Controller
         $user = Auth::user();
         $mycursos = $user->cursos();
         $cursos = Curs::all();
+
         return view('cursos.index',
             [
-               'cursos' => $cursos,
+                'cursos' => $cursos,
                 'mycursos' => $mycursos,
             ]);
     }
@@ -114,9 +116,42 @@ class CursController extends Controller
     public function show($id){
 
         $curs = Curs::find($id);
+        $unitatsformatives = $curs->UFs();
 
-        return view('cursos.show')
-            ->with('curs',$curs);
+        return view('cursos.show', [
+            'curs' => $curs,
+            'unitatsformatives' => $unitatsformatives,
+        ]);
+
+
+    }
+    
+    public function createUFForm(){
+
+        return view('cursos.createUF');
+        
+    }
+
+    public function createUF($id){
+
+        $input = Input::all();
+        $input['course_id'] = $id;
+        UnitatFormativa::create($input);
+        return Redirect::route('cursos.show', [$id])->with('message',"Unitat Formativa creada correctament");
+        
+    }
+
+    public function showUFTask(){
+
+        return view('cursos.showUFTask');
+
+    }
+
+    public function addUFTaskForm(){
+
+    }
+
+    public function addUFTask(){
 
     }
 }
