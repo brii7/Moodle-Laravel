@@ -51,8 +51,11 @@ Route::group(['prefix' => 'cursos'], function () {
     Route::post('/new', array('as' => 'cursos.newpost', 'uses' => 'CursController@create'));
     Route::delete('/delete/{id}', array('as' => 'cursos.delete', 'uses' => 'CursController@delete'));
     Route::get('/{id}/show', array('as' => 'cursos.show', 'uses' => 'CursController@show'));
-    Route::get('/{id}/tasks/{uf_id}/show', array('as' => 'cursos.task.show', 'uses' => 'CursController@showUFTask'));
-    Route::get('/{id}/tasks/{uf_id}/add', array('as' => 'cursos.task.add', 'uses' => 'CursController@addUFTask'));
+    Route::get('/{id}/{uf_id}/task/{task_id}/show', array('as' => 'cursos.task.show', 'uses' => 'TaskController@show'));
+    Route::post('/{id}/{uf_id}/task/{task_id}/show', array('as' => 'cursos.task.entregar', 'uses' => 'TaskController@entregar'));
+    Route::post('/{id}/{uf_id}/task/{task_id}/corregir', array('as' => 'cursos.task.corregir', 'uses' => 'TaskController@corregir'));
+    Route::get('/{id}/{uf_id}/tasks/add', array('as' => 'cursos.task.createForm', 'uses' => 'TaskController@createForm'));
+    Route::post('/{id}/{uf_id}/tasks/add', array('as' => 'cursos.task.create', 'uses' => 'TaskController@create'));
     Route::get('/{id}/newuf', array('as' => 'cursos.newuf', 'uses' => 'CursController@createUFForm'));
     Route::post('/{id}/newuf', array('as' => 'cursos.newufpost', 'uses' => 'CursController@createUF'));
     Route::post('/{id}/inscriure', array('as' => 'cursos.inscriure', 'uses' => 'CursController@inscriure'));

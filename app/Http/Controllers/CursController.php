@@ -141,18 +141,6 @@ class CursController extends Controller
         
     }
 
-    public function showUFTask(){
-
-        return view('cursos.showUFTask');
-
-    }
-
-    public function addUFTaskForm(){
-
-    }
-
-    public function addUFTask(){
-
-    }
+    
 }
 

@@ -21,7 +21,7 @@
                                 <label class="col-md-4 control-label">Descripció</label>
 
                                 <div class="col-md-5">
-                                    <input type="text" class="form-control" name="description">
+                                    <textarea type="text" class="form-control" name="description"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">

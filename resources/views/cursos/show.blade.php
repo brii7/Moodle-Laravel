@@ -35,13 +35,13 @@
                                         @if(count($uf->tasks) > 0)
                                             @foreach($uf->tasks as $task)
                                                 <h5>Tasques:</h5>
-                                                <a href="{{route('courses.task.show')}}">{{$task->name}}</a>
+                                                <a href="{{route('cursos.task.show', [$curs->id, $uf->id, $task->id])}}">{{$task->name}}</a>
                                             @endforeach
                                             @else
                                                 <h5>Aquesta unitat formativa no té tasques.</h5>
                                         @endif
                                         @if(Auth::user()->isAdmin())
-                                            <a href="{{route('cursos.task.add', [$curs->id, 'uf_id' => $uf->id])}}">
+                                            <a href="{{route('cursos.task.create', [$curs->id, $uf->id])}}">
                                                 <button type="submit" class="btn btn-primary">
                                                     <i class="fa fa-btn fa-plus"></i>Afegir Tasca
                                                 </button>

@@ -63,11 +63,6 @@
                                     <button type="submit" class="btn btn-primary">
                                         <i class="fa fa-btn fa-sign-in"></i>Entrar
                                     </button>
-                                    <a href="{!! route('register') !!}">
-                                        <button type="button" class="btn btn-primary">
-                                            <i class="fa fa-btn fa-sign-in"></i>Register
-                                        </button>
-                                    </a>
                                 </div>
                             </div>
                             <div class="form-group">
