@@ -22,5 +22,8 @@ class UnitatFormativa extends Model
     public function tasks(){
         return $this->hasMany(Task::class, 'uf_id');
     }
+    public function apunts(){
+        return $this->hasMany(Apunt::class, 'uf_id');
+    }
 
 }
