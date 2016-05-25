@@ -51,11 +51,17 @@ Route::group(['prefix' => 'cursos'], function () {
     Route::post('/new', array('as' => 'cursos.newpost', 'uses' => 'CursController@create'));
     Route::delete('/delete/{id}', array('as' => 'cursos.delete', 'uses' => 'CursController@delete'));
     Route::get('/{id}/show', array('as' => 'cursos.show', 'uses' => 'CursController@show'));
+    Route::delete('/{id}/{uf_id}/delete', array('as' => 'cursos.uf.delete', 'uses' => 'CursController@deleteUF'));
+    Route::post('/{id}/show', array('as' => 'cursos.apunt.create', 'uses' => 'ApuntsController@create'));
+    Route::delete('/{id}/{uf_id}/{apunt_id}/delete', array('as' => 'cursos.apunt.delete', 'uses' => 'ApuntsController@delete'));
     Route::get('/{id}/{uf_id}/task/{task_id}/show', array('as' => 'cursos.task.show', 'uses' => 'TaskController@show'));
     Route::post('/{id}/{uf_id}/task/{task_id}/show', array('as' => 'cursos.task.entregar', 'uses' => 'TaskController@entregar'));
-    Route::post('/{id}/{uf_id}/task/{task_id}/corregir', array('as' => 'cursos.task.corregir', 'uses' => 'TaskController@corregir'));
+    Route::delete('/{id}/{uf_id}/task/{task_id}/delete', array('as' => 'cursos.task.delete', 'uses' => 'TaskController@delete'));
+    Route::get('/{id}/{uf_id}/task/{task_id}/entregables', array('as' => 'cursos.task.entregables', 'uses' => 'TaskController@entregables'));
+    Route::post('/{id}/{uf_id}/task/{task_id}/entregables', array('as' => 'cursos.task.corregir', 'uses' => 'TaskController@corregir'));
     Route::get('/{id}/{uf_id}/tasks/add', array('as' => 'cursos.task.createForm', 'uses' => 'TaskController@createForm'));
     Route::post('/{id}/{uf_id}/tasks/add', array('as' => 'cursos.task.create', 'uses' => 'TaskController@create'));
+
     Route::get('/{id}/newuf', array('as' => 'cursos.newuf', 'uses' => 'CursController@createUFForm'));
     Route::post('/{id}/newuf', array('as' => 'cursos.newufpost', 'uses' => 'CursController@createUF'));
     Route::post('/{id}/inscriure', array('as' => 'cursos.inscriure', 'uses' => 'CursController@inscriure'));
