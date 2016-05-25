@@ -36,7 +36,6 @@ class User extends Authenticatable
             return false;
         }
     }
-    
     public function isTeacher(){
 
         if($this->role == 'teacher'){
@@ -44,9 +43,7 @@ class User extends Authenticatable
         }else{
             return false;
         }
-
     }
-
     public function isStudent(){
         if($this->role == 'student'){
             return true;
