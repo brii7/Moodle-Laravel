@@ -37,45 +37,25 @@
                         ?>
                         @if(Auth::user()->isAdmin() || Auth::user()->isStudent())
                             {{ Form::open(array('files' => true)) }}
-                            {{ Form::label('file', "Fitxer") }} (Límit 25MB):
-                            {{ Form::file('file', null, array('class' => 'form-control'))}}
-                            {{ Form::submit('Entregar', array('class' => 'btn btn-info')) }}
+                                {{ Form::label('file', "Fitxer") }} (Límit 25MB):
+                                {{ Form::file('file', null)}}
+                                {{ Form::submit('Entregar') }}
                             {{ Form::close() }}
-                        @endif
-                        @if(Auth::user()->isAdmin() || Auth::user()->isTeacher())
-                            <form class="form-horizontal" role="form" method="POST" action="corregir">
-                                {!! csrf_field() !!}
-
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Nota (*)</label>
-
-                                    <div class="col-md-2">
-                                        <input type="number" class="form-control" name="nota" min="1" max="10" step="any">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Explicacio</label>
-
-                                    <div class="col-md-5">
-                                        <textarea class="form-control" name="explicacio"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-6 col-md-offset-4">
-                                        <button type="submit" class="btn btn-primary">
-                                            <i class="fa fa-btn fa-check"></i>Corregir
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
                         @endif
 
                         <div class="entregat">
-                            @if($corregit == 0)
+                            @if(!$entregable[0]->corregit)
 
                                 <p>La tasca no ha estat corregida encara.</p>
 
+                            @else
+
+                                <h2>Informació de la correcció:</h2>
+
+                                <h3>Nota: </h3><p>$entregable[0]->nota</p>
+                                <h3>Correcció: </h3><p>$entregable[0]->explicacio</p>
                             @endif
+
                         </div>
 
                     </div>

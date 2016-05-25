@@ -18,14 +18,14 @@ class TaskController extends Controller
         $curs = Curs::find($id);
         $uf = UnitatFormativa::find($uf_id);
         $tasca = Task::find($task_id);
-        $corregit = DB::table('user_task')->where('user_id', Auth::user()->id)->where('task_id', $tasca->id)->pluck('corregit');
+        $entregable = DB::table('user_task')->where('user_id', Auth::user()->id)->where('task_id', $tasca->id)->get();
 
 
         return view('cursos.showUFTask', [
             'curs' => $curs,
             'uf' => $uf,
             'tasca' => $tasca,
-            'corregit' => $corregit,
+            'entregable' => $entregable,
         ]);
 
     }
@@ -69,18 +69,7 @@ class TaskController extends Controller
 
     public function corregir($user_id, $task_id){
 
-        $input = Input::all();
-        $nota = $input['nota'];
-        $explicacio = $input['explicacio'];
-
-        DB::table('user_task')->insert(
-            array(
-                'user_id' => $user_id,
-                'task_id' => $task_id,
-                'nota' => $nota, 
-                'explicacio' => $explicacio,
-            )
-        );
+       
         
         
     }
