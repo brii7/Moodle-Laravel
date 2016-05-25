@@ -140,6 +140,27 @@ class CursController extends Controller
         return Redirect::route('cursos.show', [$id])->with('message',"Unitat Formativa creada correctament");
         
     }
+    
+    public function deleteUF($id, $uf_id){
+
+        if(Auth::guest()){
+            return Redirect::route('dashboard')
+                ->with('type_message', "warning")
+                ->with('message', 'Nice try.');
+        }
+
+        $user = Auth::user();
+        if($user->isAdmin() || $user->isTeacher()){
+            UnitatFormativa::find($uf_id)->delete();
+            return Redirect::route('cursos.show', $id)
+                ->with('message','Unitat Formativa esborrada correctament');
+        }else{
+            return Redirect::route('dashboard')
+                ->with('type_message', "warning")
+                ->with('message', 'Nice try.');
+        }
+        
+    }
 
     
 }
