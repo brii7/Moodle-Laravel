@@ -28,7 +28,7 @@
                                         </div>
 
                                         <div class="form-group">
-                                            {{ Form::label('file', "Fitxer d'enunciat") }} PDF(Límit 25MB):
+                                            {{ Form::label('file', "Fitxer d'enunciat") }} (Si es vol vista prèvia, ha de ser un PDF)(Límit 25MB):
                                             {{ Form::file('file', null, array('class' => 'form-control'))}}
 
                                         </div>
