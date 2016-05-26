@@ -46,7 +46,7 @@ class TaskController extends Controller
     public function createForm($id, $uf_id){
 
         $curs = Curs::find($id);
-        $uf = UnitatFormativa::find($id);
+        $uf = UnitatFormativa::find($uf_id);
 
         return view('cursos.createUFTask',[
             'curs' => $curs,
@@ -88,7 +88,7 @@ class TaskController extends Controller
         }
 
         $curs = Curs::find($id);
-        $uf = UnitatFormativa::find($id);
+        $uf = UnitatFormativa::find($uf_id);
         $tasca = Task::find($task_id);
         $entregables = DB::table('user_task')->where('task_id',$task_id)->get();
         $alumnes = array();
@@ -96,6 +96,7 @@ class TaskController extends Controller
         foreach($entregables as $entregable){
             array_push($alumnes, User::find($entregable->user_id));
         }
+
 
         return view('cursos.showTaskEntregables',[
             'curs' => $curs,
@@ -124,7 +125,7 @@ class TaskController extends Controller
 
 
         $curs = Curs::find($id);
-        $uf = UnitatFormativa::find($id);
+        $uf = UnitatFormativa::find($uf_id);
         $tasca = Task::find($task_id);
         $entregables = DB::table('user_task')->where('task_id',$task_id)->get();
         $alumnes = array();
@@ -167,6 +168,8 @@ class TaskController extends Controller
                 ->where('user_id',$user_id)
                 ->where('task_id', $task_id)->update(
                 array(
+                    'course_id' => $id,
+                    'uf_id' => $uf_id,
                     'user_id' => $user_id,
                     'task_id' => $task_id,
                     'file' => $filename,
@@ -178,6 +181,8 @@ class TaskController extends Controller
         }else{
             DB::table('user_task')->insert(
                 array(
+                    'course_id' => $id,
+                    'uf_id' => $uf_id,
                     'user_id' => $user_id,
                     'task_id' => $task_id,
                     'file' => $filename,
@@ -192,6 +197,33 @@ class TaskController extends Controller
 
     }
 
+    public function edit($id, $uf_id, $task_id, Request $request){
+
+        $input = Input::all();
+        $tasca = Task::find($task_id);
+
+        $tasca->name = $input['name'];
+        $tasca->description = $input['description'];
+        if($input['data_finalització']!= ""){
+            $tasca->data_finalització = $input['data_finalització'];
+        }
+
+        if($request->hasFile('file')){
+            $file = $request->file('file');
+            $destinationpath = '/tasques/'. $id . '/'. $uf_id;
+            $extension = $file->getClientOriginalExtension();
+            $filename = time().rand(11111, 99999) . '.' . $extension;
+            $file->move(public_path() . $destinationpath, $filename);
+
+            $tasca->file = $filename;
+        }
+
+        $tasca->save();
+
+        return Redirect::route('cursos.task.show', array($id, $uf_id, $task_id))->with('message', 'Tasca editada correctament');
+
+    }
+
     public function delete($id, $uf_id, $task_id){
 
         if(Auth::guest()){
@@ -202,7 +234,12 @@ class TaskController extends Controller
 
         $user = Auth::user();
         if($user->isAdmin() || $user->isTeacher()){
+
+
             Task::find($task_id)->delete();
+
+            DB::table('user_task')->where('task_id', $task_id)->delete();
+
             return Redirect::route('cursos.show', $id)
                 ->with('message','Tasca esborrada correctament');
         }else{

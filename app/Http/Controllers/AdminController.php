@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Curs;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Auth;
@@ -60,5 +61,49 @@ class AdminController extends Controller
 
         return Redirect::route('users.create')->with('message',"Usuari creat correctament");
 
+    }
+
+    public function deleteUser($id){
+
+
+
+        if(Auth::guest()){
+            return Redirect::route('dashboard')
+                ->with('type_message', "warning")
+                ->with('message', 'Nice try.');
+        }
+
+        $user = User::find($id);
+        $boolean = true;
+        if(Auth::user()->isAdmin()){
+
+            
+            $cursos = Curs::all();
+            foreach ($cursos as $curs){
+                
+                $teacher_id = $curs->teacherid();
+                if($user->id == $teacher_id){
+                    $curs = $curs->name;
+                    $boolean = false;
+                }
+                
+            }
+            if($boolean){
+                $user->delete();
+                $type_message = 'success';
+                $message = 'Usuari esborrat correctament';
+            }else{
+                $type_message = 'warning';
+                $message = "Aquest usuari està registrat com a professor al curs ".$curs.", tria un altre professor per al curs
+                i després torna a provar d'esborrar el professor.";
+            }
+            return Redirect::route('users')
+                ->with('type_message', $type_message)
+                ->with('message', $message);
+        }else{
+            return Redirect::route('dashboard')
+                ->with('type_message', "warning")
+                ->with('message', 'Nice try.');
+        }
     }
 }

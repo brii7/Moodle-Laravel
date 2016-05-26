@@ -18,8 +18,11 @@ class Task extends Model
     /**
      * Get the user that owns the task.
      */
-    public function UF()
-    {
+    public function UF(){
         return $this->belongsTo(UnitatFormativa::class, 'uf_id');
+    }
+
+    public function curs(){
+        return $this->belongsTo(Curs::class, 'course_id');
     }
 }

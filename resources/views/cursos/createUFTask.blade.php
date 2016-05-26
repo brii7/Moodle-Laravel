@@ -7,8 +7,15 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Nova Tasca</div>
                     <div class="panel-body">
-                        <h3 style="margin-top: -5px; margin-bottom: 30px;"> {{$curs->name}} - {{$uf->name}}</h3>
-                        {{ Form::open(array('files' => true)) }}
+                        <h2 style="margin-top: 0px; "> {{$curs->name}}</h2>
+                        <h2 style="margin-bottom: 30px;"> {{$uf->name}}</h2>
+                        <a href="{{route('cursos.show', array($curs->id))}}">
+                            <button class="">
+                                <i class="fa fa-btn fa-arrow-left"></i>Tornar al curs
+                            </button>
+                        </a>
+
+                        {{ Form::open(array('files' => true, 'style' => 'margin-top: 30px;')) }}
 
                         <div class="row">
                             <div class="col-lg-12">

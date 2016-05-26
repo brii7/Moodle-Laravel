@@ -15,8 +15,8 @@ use App\User;
                     <h2>{{$uf->name}} {{$uf->description}}</h2>
 
                     <a href="{{route('cursos.task.show', array($curs->id, $uf->id, $tasca->id))}}">
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-btn fa-arrow-left"></i>Tornar a la tasca
+                        <button type="submit" class="btn-primary">
+                            <i class="fa fa-btn fa-arrow-left"></i>
                         </button>
                     </a>
 
@@ -25,9 +25,9 @@ use App\User;
                     <h2>{{$tasca->name}}</h2>
 
                     <h3>Descripció</h3>
-                    <p>{{$tasca->description}}</p>
+                    {{$tasca->description}}
 
-                    <table class="table table-responsive">
+                    <table class="table table-responsive table-bordered">
                         <tr>
                             <th>Alumne</th>
                             <th>Nota</th>
@@ -71,8 +71,8 @@ use App\User;
                                 </td>
 
                                 @if(!$entregable->corregit)
-                                    <td>
-                                        <button class="btn btn-warning"
+                                    <td style="text-align: center;">
+                                        <button class="btn-warning"
                                                 type="button" data-toggle="modal"
                                                 data-target="#modal{{$entregable->user_id}}">Corregir
                                         </button>
@@ -122,8 +122,8 @@ use App\User;
                                         </div>
                                     </td>
                                 @else
-                                    <td>
-                                        <button class="btn btn-success"
+                                    <td style="text-align: center;">
+                                        <button class="btn-success"
                                                 type="button" data-toggle="modal"
                                                 data-target="#modal{{$entregable->user_id}}">Editar correcció
                                         </button>

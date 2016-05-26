@@ -117,12 +117,35 @@ class CursController extends Controller
 
         $curs = Curs::find($id);
         $unitatsformatives = $curs->UFs();
+        $professors = User::where('role','=','teacher')->get();
 
-        return view('cursos.show', [
-            'curs' => $curs,
-            'unitatsformatives' => $unitatsformatives,
-        ]);
+        $user = Auth::user();
+        $inscrit = $curs->members->contains($user->id);
 
+        if($inscrit || $user->isAdmin() || $user->isTeacher()){
+            return view('cursos.show', [
+                'curs' => $curs,
+                'unitatsformatives' => $unitatsformatives,
+                'professors' => $professors,
+            ]);
+        }
+
+        return Redirect::route('cursos')
+            ->with('type_message', "danger")
+            ->with('message', 'No estàs inscrit a aquest curs');
+    }
+
+    public function edit($id){
+
+        $input = Input::all();
+        $curs = Curs::find($id);
+
+        $curs->name = $input['name'];
+        $curs->description = $input['description'];
+        $curs->teacher_id = $input['teacher_id'];
+        $curs->save();
+
+        return Redirect::route('cursos.show', $id)->with('message', 'Curs editat correctament');
 
     }
     
@@ -140,7 +163,23 @@ class CursController extends Controller
         return Redirect::route('cursos.show', [$id])->with('message',"Unitat Formativa creada correctament");
         
     }
-    
+
+    public function editUF($id, $uf_id){
+
+        $input = Input::all();
+        $uf = UnitatFormativa::find($uf_id);
+
+        $uf->name = $input['name'];
+        $uf->description = $input['description'];
+        if($input['data_finalització']!= ""){
+            $uf->data_finalització = $input['data_finalització'];
+        }
+        $uf->save();
+
+        return Redirect::route('cursos.show', $id)->with('message', 'Unitat Formativa editada correctament');
+
+    }
+
     public function deleteUF($id, $uf_id){
 
         if(Auth::guest()){

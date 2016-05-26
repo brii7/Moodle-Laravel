@@ -15,8 +15,7 @@ class UnitatFormativa extends Model
 
     protected $fillable = ['course_id', 'name', 'description', 'data_finalització'];
 
-    public function curs()
-    {
+    public function curs(){
         return $this->belongsTo(Curs::class, 'course_id');
     }
     public function tasks(){

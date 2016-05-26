@@ -5,13 +5,13 @@
 <div class="row">
 @if (count($cursos) > 0)
 
-    <div class="col-lg-8 col-md-offset-2">
+    <div class="col-lg-12">
         <div class="panel panel-default">
         <div class="panel-heading">
             <h2>Cursos</h2>
             @if(Auth::user()->isAdmin())
                 <a href="{{route('cursos.new')}}">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn-primary">
                     <i class="fa fa-btn fa-plus"></i>Afegir curs
                 </button>
                 </a>
@@ -38,38 +38,37 @@
                             <div>{{ $curs->teacher() }}</div>
                         </td>
                         <td>
-                            TODO
+                            {{count($curs->members)}}
                         </td>
                         <td>
-                            TODO
+                            {{$curs->mitjana()}}
                         </td>
                         <td>
                             @if(Auth::user()->isAdmin())
                                 <form action="{{ url('cursos/delete/'.$curs->id) }}" method="POST">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
-                                    <button type="submit" id="delete-curs-{{ $curs->id }}" class="btn btn-danger">
+                                    <button type="submit" id="delete-curs-{{ $curs->id }}" class="btn-danger">
                                         <i class="fa fa-btn fa-trash"></i>Esborrar
                                     </button>
                                 </form>
                             @elseif($curs->members->contains(Auth::user()->id))
                                 <form action="{{ url('cursos/'.$curs->id).'/esborrar'}}" method="POST">
                                     {{ csrf_field() }}
-                                    <button type="submit" id="inscriure-curs-{{ $curs->id }}" class="btn btn-warning">
+                                    <button type="submit" id="inscriure-curs-{{ $curs->id }}" class="btn-warning">
                                         <i class="fa fa-btn fa-plus"></i>Anular inscripció
                                     </button>
                                 </form>
                             @else
                                 <form action="{{ url('cursos/'.$curs->id).'/inscriure'}}" method="POST">
                                     {{ csrf_field() }}
-                                    <button type="submit" id="inscriure-curs-{{ $curs->id }}" class="btn btn-primary">
+                                    <button type="submit" id="inscriure-curs-{{ $curs->id }}" class="btn-primary">
                                         <i class="fa fa-btn fa-plus"></i>Inscriure's
                                     </button>
                                 </form>
                             @endif
 
                         </td>
-
                     </tr>
                 @endforeach
                 </tbody>
