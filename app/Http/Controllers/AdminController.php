@@ -76,8 +76,6 @@ class AdminController extends Controller
         $user = User::find($id);
         $boolean = true;
         if(Auth::user()->isAdmin()){
-
-            
             $cursos = Curs::all();
             foreach ($cursos as $curs){
                 
