@@ -72,8 +72,15 @@
 
                     <h2>Descripció</h2>
                     <p>{{$tasca->description}}</p>
-                    @if($tasca->file != "")
+                    @if($tasca->file == "")
+                        <p>La tasca no té cap fitxer.</p>
+                    @elseif(strpos($tasca->file, 'jpg') || strpos($tasca->file, 'png') || strpos($tasca->file, 'jpeg')
+                    || strpos($tasca->file, 'bmp') || strpos($tasca->file, 'gif'))
+                        <img class="img-responsive" src="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->file}}">
+                    @elseif(strpos($tasca->file, 'pdf'))
                         <object data="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->file}}" type="application/pdf" width="100%" height="500px"></object>
+                    @else
+                        <p>El fitxer de la tasca no té vista prèvia. Contacta amb el teu professor.</p>
                     @endif
 
 
