@@ -13,6 +13,7 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/global.css') }}">
     <style>
         body {
@@ -77,11 +78,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="{{ URL::asset('js/script.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.js') }}"></script>
+    <!-- <script type="text/javascript" src="{{ URL::asset('js/script.js') }}"></script> -->
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <!-- App scripts -->
     @stack('scripts')
     <!-- Custom scripts -->
     @yield('scripts')
+
 </body>
 </html>
