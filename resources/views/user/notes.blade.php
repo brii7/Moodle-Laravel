@@ -24,46 +24,57 @@ use App\Task;
 
                 </div>
                 <div class="panel-body">
-
-
-                    <table class="table table-responsive table-bordered">
-                        <tr>
-                            <th>Curs</th>
-                            <th>UF</th>
-                            <th>Tasca</th>
-                            <th>Nota</th>
-
-                        </tr>
-
-                        @foreach($user_notes as $row)
-                            <tr>
-                                <td><a href="{{route('cursos.show', $row->course_id)}}">{{Curs::find($row->course_id)->name}}</a></td>
-                                <td>{{UnitatFormativa::find($row->uf_id)->name}}</td>
-                                <td><a href="{{route('cursos.task.show', array($row->course_id, $row->uf_id, $row->task_id))}}">{{Task::find($row->task_id)->name}}</a></td>
-                                <td style="text-align: center;font-size: 17px;">
-                                    @if($row->corregit)
-                                        @if($row->nota < 5)
-                                            <p style="color:red; font-weight: bold">{{$row->nota}}</p>
+                    @foreach($cursosarray as $curs)
+                        <h2>{{$curs->name}}</h2>
+                        @foreach($curs->UFs as $uf)
+                            <h3>{{$uf->name}}</h3>
+                            <table class="table table-responsive table-bordered uf">
+                                <th style="width:60%">Tasca</th>
+                                <th>Entregat tard</th>
+                                <th>Nota</th>
+                                @foreach($uf->tasks as $tasca)
+                                    <tr>
+                                        <td>
+                                            {{\App\Task::find($tasca->id)->name}}
+                                        </td>
+                                        @if(DB::table('user_task')->where('task_id',$tasca->id)
+                                                                    ->where('user_id',$user->id)->value('entregat_tard'))
+                                            <td style="color:red">
+                                                Sí.
+                                            </td>
                                         @else
-                                            <p>{{$row->nota}}</p>
+                                            <td>
+                                                No
+                                            </td>
                                         @endif
-                                    @else
-                                        No corregit.
-                                    @endif
-
-                                </td>
-                            </tr>
-
+                                        @if(DB::table('user_task')->where('task_id',$tasca->id)
+                                                                    ->where('user_id',$user->id)->value('corregit'))
+                                        <td class="nota">
+                                            {{DB::table('user_task')->where('task_id',$tasca->id)
+                                                                    ->where('user_id',$user->id)->value('nota')}}
+                                        </td>
+                                        @elseif(DB::table('user_task')->where('task_id',$tasca->id)
+                                                                    ->where('user_id',$user->id)->value('corregit'))
+                                            <td class="noentregat" style="color:red">Entregat però no corregit</td>
+                                        @else
+                                            <td class="noentregat" style="color:red">No entregat</td>
+                                        @endif
+                                    </tr>
+                                @endforeach
+                                <tr>
+                                    <td colspan="2">Nota final</td>
+                                    <td class="notafinal"></td>
+                                </tr>
+                            </table>
                         @endforeach
-                            <tr>
-                                <td style="text-align: right;font-weight: bold;"colspan="3">Nota global:</td>
-                                <td></td>
-                            </tr>
-                    </table>
 
+                    @endforeach
                 </div>
 
             </div>
         </div>
     </div>
+@endsection
+@section('scripts')
+    <script src="/js/scriptnotes.js"></script>
 @endsection
