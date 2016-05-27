@@ -17,22 +17,44 @@ use App\Http\Requests;
 class UserController extends Controller
 {
     public function notes(){
-        
-        
         $user = Auth::user();
-        $user_notes = DB::table('user_task')->where('user_id', $user->id)->get();
+        if($user->isAdmin()){
+            $user_notes = DB::table('user_task')
+                ->where('user_id', $user->id)
+                ->orderBy('course_id', 'asc')
+                ->orderBy('uf_id', 'asc')
+                ->get();
+            return view('user.notes', [
+                'user' => $user,
+                'user_notes' => $user_notes,
+            ]);
+        }
         
-        /*foreach($user_notes as $row){
-            if($row->corregit){
-                
-                
-                
 
-            }
-        }*/
+        $user_notes = DB::table('user_task')
+            ->where('user_id', $user->id)
+            ->orderBy('course_id', 'asc')
+            ->orderBy('uf_id', 'asc')
+            ->get();
+
+        $cursosarray = $user->cursos;
+        $ufarray = array();
+        foreach($cursosarray as $curs){
+            array_push($ufarray, $curs->UFs);
+        }
+        
+        $taskarray = array();
+        foreach($user_notes as $row){
+            $taskarray[$row->task_id] = $row->nota;
+
+        }
+
+
         return view('user.notes', [
             'user' => $user,
             'user_notes' => $user_notes,
+            'cursosarray' => $cursosarray,
+            'ufarray' => $ufarray,
         ]);
         
     }
