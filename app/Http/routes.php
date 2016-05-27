@@ -42,15 +42,22 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 // Rutes d'aministradors
 Route::group(['prefix' => 'admin'], function () {
+    
     Route::get('/users', array('as' => 'users', 'uses' => 'AdminController@userList'));
     Route::get('/users/create', array('as' => 'users.create', 'uses' => 'AdminController@formUser'));
     Route::post('/users/create', array('as' => 'users.createpost', 'uses' => 'AdminController@createUser'));
     Route::delete('/users/delete/{id}', array('as' => 'users.delete', 'uses' => 'AdminController@deleteUser'));
+    //Datatables
+    Route::controller('users/datatables', 'DatatablesController', [
+        'anyData'  => 'datatables.data',
+        'getIndex' => 'datatables',
+    ]);
 
 });
 
 // Rutes d'usuaris
 Route::get('/notes', array('as' => 'users.notes', 'uses' => 'UserController@notes'));
+
 
 
 // Rutes de cursos
