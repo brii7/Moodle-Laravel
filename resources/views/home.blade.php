@@ -21,7 +21,6 @@
                                 <a href="{{route('users.create')}}"><button type="button" class=" btn-primary">Afegir nou usuari</button></a>
                                 <a href="{{route('cursos.new')}}"><button type="button" class=" btn-primary">Afegir un curs</button></a>
                             @endif
-                            <a href=""><button type="button" class=" btn-primary">Canviar contrassenya</button></a>
                             <a href=""><button type="button" class=" btn-primary">Editar el meu perfil</button></a>
                             <a href="{{route('users.notes')}}"><button type="button" class=" btn-primary">Veure les meves notes</button></a>
 
