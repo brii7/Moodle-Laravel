@@ -22,7 +22,7 @@
                             <th>E-mail</th>
                             <th>Data d'alta</th>
                             <th>Rol</th>
-                            <th>Accions</th>
+                            <th></th>
 
                         </tr>
 
@@ -32,9 +32,9 @@
                                 <td>{{ $user->email }}</td>
                                 <td>{{ $user->created_at }}</td>
                                 <td>{{ $user->role }}</td>
-                                <td>
+                                <td style="text-align: center">
                                     @if($user->id != 1)
-                                        <form style="float:right;" action="{{route('users.delete', array($user->id))}}" method="POST">
+                                        <form style="" action="{{route('users.delete', array($user->id))}}" method="POST">
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
                                             <button type="submit" id="delete-user-{{ $user->id }}" class="btn-danger">
