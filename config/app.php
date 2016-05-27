@@ -160,6 +160,7 @@ return [
          * Packages
          */
         Collective\Html\HtmlServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class
     ],
 
     /*
