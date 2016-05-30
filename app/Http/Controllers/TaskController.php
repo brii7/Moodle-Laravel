@@ -30,9 +30,7 @@ class TaskController extends Controller
         }else{
             $entregat = true;
         }
-
-
-
+        
         return view('cursos.showUFTask', [
             'curs' => $curs,
             'uf' => $uf,
@@ -47,6 +45,12 @@ class TaskController extends Controller
 
         $curs = Curs::find($id);
         $uf = UnitatFormativa::find($uf_id);
+        $user = Auth::user();
+        if($curs->teacherid() != $user->id){
+            return Redirect::route('cursos')
+                ->with('type_message', "danger")
+                ->with('message', "No ets el professor d'aquest curs");
+        }
 
         return view('cursos.createUFTask',[
             'curs' => $curs,

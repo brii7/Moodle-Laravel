@@ -64,7 +64,7 @@ use App\User;
                                 @endif
 
                                 <td>
-                                    <a href="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->id}}/{{$entregable->file}}"
+                                    <a href="http://192.168.15.190/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->id}}/{{$entregable->file}}"
                                        download="{{$entregable->file}}">
                                         Fitxer entregat
                                     </a>

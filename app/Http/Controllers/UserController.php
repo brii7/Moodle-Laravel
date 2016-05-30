@@ -18,16 +18,9 @@ class UserController extends Controller
 {
     public function notes(){
         $user = Auth::user();
-        if($user->isAdmin()){
-            $user_notes = DB::table('user_task')
-                ->where('user_id', $user->id)
-                ->orderBy('course_id', 'asc')
-                ->orderBy('uf_id', 'asc')
-                ->get();
-            return view('user.notes', [
-                'user' => $user,
-                'user_notes' => $user_notes,
-            ]);
+        if($user->isAdmin() || $user->isTeacher()){
+
+            return Redirect::to(route('dashboard'));
         }
         
 

@@ -65,8 +65,6 @@ class AdminController extends Controller
 
     public function deleteUser($id){
 
-
-
         if(Auth::guest()){
             return Redirect::route('dashboard')
                 ->with('type_message', "warning")

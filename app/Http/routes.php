@@ -12,8 +12,14 @@
 */
 
 Route::get('/',['as' => 'welcome', function () {
-
     if(Auth::guest()) {
+
+
+        if(\App\User::all()->isEmpty()){
+
+            return view('firstSetup');
+            
+        }
         return view('welcome');
     }
     else {
@@ -21,7 +27,6 @@ Route::get('/',['as' => 'welcome', function () {
     }
 }]);
 Route::get('/home',['as' => 'dashboard', function() {
-    
     if(Auth::guest()) {
         return view('welcome');
     }
@@ -37,8 +42,7 @@ Route::get('/home',['as' => 'dashboard', function() {
 Route::get('auth/login', ['as' => 'login', 'uses' => 'Auth\AuthController@getLogin']);
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@logout']);
-Route::get('auth/register', ['as' => 'register', 'uses' => 'Auth\AuthController@getRegister']);
-Route::post('auth/register', 'Auth\AuthController@postRegister');
+
 
 // Rutes d'aministradors
 Route::group(['prefix' => 'admin'], function () {
@@ -57,8 +61,6 @@ Route::group(['prefix' => 'admin'], function () {
 
 // Rutes d'usuaris
 Route::get('/notes', array('as' => 'users.notes', 'uses' => 'UserController@notes'));
-
-
 
 // Rutes de cursos
 Route::get('/cursos', ['as' => 'cursos', 'uses' => 'CursController@index']);

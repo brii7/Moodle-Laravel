@@ -78,7 +78,7 @@
                     || strpos($tasca->file, 'bmp') || strpos($tasca->file, 'gif'))
                         <img class="img-responsive" src="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->file}}">
                     @elseif(strpos($tasca->file, 'pdf'))
-                        <object data="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->file}}" type="application/pdf" width="100%" height="500px"></object>
+                        <object data="http://192.168.15.190/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->file}}" type="application/pdf" width="100%" height="500px"></object>
                     @else
                         <p>El fitxer de la tasca no té vista prèvia. Contacta amb el teu professor.</p>
                     @endif
@@ -129,7 +129,7 @@
                                 @else
                                     <tr>
                                         <td>
-                                            <a href="http://localhost/tasques/{{$curs->id}}/{{$uf->id}}/{{$entregable[0]->file}}"
+                                            <a href="http://192.168.15.190/tasques/{{$curs->id}}/{{$uf->id}}/{{$tasca->id}}/{{$entregable[0]->file}}"
                                                download="{{$entregable[0]->file}}">
                                                 Fitxer entregat
                                             </a>

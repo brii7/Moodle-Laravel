@@ -52,6 +52,7 @@
                                         <i class="fa fa-btn fa-trash"></i>Esborrar
                                     </button>
                                 </form>
+                            @elseif(Auth::user()->isTeacher())
                             @elseif($curs->members->contains(Auth::user()->id))
                                 <form action="{{ url('cursos/'.$curs->id).'/esborrar'}}" method="POST">
                                     {{ csrf_field() }}

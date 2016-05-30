@@ -196,7 +196,7 @@
                                                     <h3>Apunts:</h3>
                                                     @foreach($uf->apunts as $apunt)
                                                         <li style="margin: 5px; padding: 0.2em;font-size: 18px;"><i class="fa fa-file-pdf-o" style="margin-right: 5px;"></i>
-                                                        <a href="http://localhost/apunts/{{$curs->id}}/{{$uf->id}}/{{$apunt->file}}">{{$apunt->name}}</a>
+                                                        <a href="http://192.168.15.190/apunts/{{$curs->id}}/{{$uf->id}}/{{$apunt->file}}">{{$apunt->name}}</a>
                                                             @if(Auth::user()->isAdmin() || Auth::user()->isTeacher())
                                                                 <form style="float:left; margin-right: 10px;" action="{{route('cursos.apunt.delete', array($curs->id, $uf->id, $apunt->id))}}" method="POST">
                                                                     {{ csrf_field() }}
@@ -251,11 +251,8 @@
                         <h2>No hi ha unitats formatives en aquest curs.</h2>
                     @endif
 
-
-
                 </div>
             </div>
-
         </div>
     </div>
 @endsection

@@ -42,5 +42,4 @@ $( document ).ready(function() {
             $(this).find('.notafinal').html(mitjana);
         });
     }
-
 });

@@ -16,13 +16,10 @@
                         </a>
 
                         {{ Form::open(array('files' => true, 'style' => 'margin-top: 30px;')) }}
-
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="panel panel-default">
-
                                     <div class="panel-body">
-
                                         <div class="form-group">
                                             {{ Form::label('name', 'Nom') }} (<span class='mandatory'>*</span>):
                                             {{ Form::text("name", null, array("class" => "form-control", 'placeholder' => 'Nom'))}}
@@ -33,13 +30,11 @@
                                             {{ Form::textarea('description', null, array('class' => 'form-control'))}}
 
                                         </div>
-
                                         <div class="form-group">
                                             {{ Form::label('file', "Fitxer d'enunciat") }} (Si es vol vista prèvia: (PDF, PNG, JPG, JPEG, BMP, GIF)(Límit 25MB):
                                             {{ Form::file('file', null, array('class' => 'form-control'))}}
 
                                         </div>
-
                                         <div class="form-group">
                                             {{ Form::label('data_finalització', 'Data de finalització') }}:
                                             {{ Form::date('data_finalització', null, array('class' => 'form-control'))}}
@@ -47,14 +42,12 @@
 
                                     </div>
                                 </div>
-
                                 <div>
                                     {{ Form::submit('Crear', array('class' => 'btn btn-info')) }}
 
                                 </div>
                             </div>
                         </div>
-
                         {{ Form::close() }}
                     </div>
                 </div>

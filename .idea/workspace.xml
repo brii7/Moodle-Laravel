@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80946191-2d19-48e0-aeb3-fc7280657eae" name="Default" comment="Minor changes to clarify reading">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apunts/1/2/146427380040418.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apunts/2/4/146427495034404.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/1/2/146427391496771.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/1/2/146427661213400.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/1/2/146427672455265.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/1/2/22/146427355653841.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/1/2/23/146428127359269.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/2/4/146427496668337.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/2/4/24/146428376864097.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/2/4/26/146428358779690.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_05_26_141541_add_id_to_curs_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_05_26_170632_add_course_id_to_user_task_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/notes.blade.php" />
+    <list default="true" id="80946191-2d19-48e0-aeb3-fc7280657eae" name="Default" comment="Minor changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146461383461520.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146462085413788.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146462089121158.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/28/146462619943527.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462088489366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462620725214.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462621883235.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Commands/XMLExportar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/firstSetup.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Curs.php" afterPath="$PROJECT_DIR$/app/Curs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CursController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Task.php" afterPath="$PROJECT_DIR$/app/Task.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/UnitatFormativa.php" afterPath="$PROJECT_DIR$/app/UnitatFormativa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/scriptnotes.js" afterPath="$PROJECT_DIR$/public/js/scriptnotes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
     </list>
     <ignored path="Moodle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +38,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\Brian\Documents\GitHub\Moodle-Laravel" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -52,79 +46,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="showUFTask.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php">
+      <file leaf-file-name="CursController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CursController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-              <folding>
-                <marker date="1464284803705" expanded="true" signature="5713:5722" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showTaskEntregables.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+            <state relative-caret-position="255">
+              <caret line="138" column="9" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cursos/index.blade.php">
+      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Curs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Curs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="344">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
-                <element signature="e#23#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding>
-                <element signature="e#2208#2252#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cursos/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3876">
-              <caret line="228" column="64" selection-start-line="228" selection-start-column="64" selection-end-line="230" selection-end-column="68" />
-              <folding>
-                <marker date="1464284500113" expanded="true" signature="8407:8472" placeholder="..." />
+                <element signature="e#7094#7828#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,26 +84,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_05_174101_add_super_user_boolean_to_users.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_05_174101_add_roles_to_users.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_05_174532_add_roles_to_users_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_11_173928_create_courses_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_11_173928_create_cursos_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_12_171328_create_cursos_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_12_172339_create_curs_user_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/messages.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_18_133837_create_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_18_144215_add_description_to_courses_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_18_164752_add_uf_id_to_tasks.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_18_163752_create_unitatsformatives_table.php" />
         <option value="$PROJECT_DIR$/public/css/global.css" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_24_141045_add_file_to_tasks.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/usernew.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_24_175559_modify_description_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_24_174238_create_user_task_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_25_130848_add_entregat_tard_to_user_task.php" />
@@ -177,26 +104,37 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/cursos/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/cursos/createUF.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" />
         <option value="$PROJECT_DIR$/app/UnitatFormativa.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_26_141541_add_id_to_curs_user.php" />
         <option value="$PROJECT_DIR$/app/Task.php" />
-        <option value="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_26_170632_add_course_id_to_user_task_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/app/Curs.php" />
-        <option value="$PROJECT_DIR$/resources/views/cursos/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/cursos/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DatatablesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/allusers.blade..php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/allusers.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/notes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/scriptcurs.js" />
+        <option value="$PROJECT_DIR$/public/js/scriptnotes.js" />
+        <option value="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/ExportarXML.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/XMLExportar.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/cursos/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/resources/views/firstSetup.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/resources/views/cursos/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
       </list>
     </option>
   </component>
@@ -301,50 +239,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cursos" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -360,20 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Moodle-Laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,15 +322,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="artisan.php&#9;FILE&#9;file://C:/Users/Brian/Documents/GitHub/Moodle-Laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\resources\views\partials" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\public\js" />
       <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\resources\views\cursos" />
       <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\resources\views" />
       <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\resources\views\layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Brian\Documents\GitHub\Moodle-Laravel\resources\views\partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -529,119 +411,12 @@
       <workItem from="1464267373426" duration="18000" />
       <workItem from="1464267513548" duration="9000" />
       <workItem from="1464267600442" duration="16484000" />
-      <workItem from="1464285169580" duration="18000" />
-    </task>
-    <task id="LOCAL-00001" summary="First routes and views">
-      <created>1462470636992</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1462470636992</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Created whole login/register system&#10;Admin can create users and assign roles&#10;Created user list">
-      <created>1462988629729</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1462988629729</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Created curs model /user-curs relationship&#10;Created curs index view">
-      <created>1463075521534</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1463075521534</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Created curs model /user-curs relationship&#10;Created curs index view">
-      <created>1463075571345</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1463075571345</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Small unnoticeable change">
-      <created>1463509052415</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509052415</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added 'welcome {{username}}' and session messages view + code on app.blade">
-      <created>1463509173706</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509173706</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added session messages view on partials">
-      <created>1463509205806</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509205806</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added create/index/show views for course">
-      <created>1463509254296</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509254296</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Changed fillable property, missing teacher_id">
-      <created>1463509291477</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509291477</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added create, delete, subscribe, unsubscribe, show methods">
-      <created>1463509364557</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509364557</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Wtf is this">
-      <created>1463509388737</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509388737</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Moved create course to isAdmin()">
-      <created>1463509462727</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509462728</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Created new routes on courses">
-      <created>1463509489346</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509489346</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Created Task Model // TODO -&gt; Add fields to fillable and create migration">
-      <created>1463509542924</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509542924</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Completed isTeacher() and created isStudent()">
-      <created>1463509586985</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509586985</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Why the fuck does this file always change no matter what I do">
-      <created>1463509629013</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1463509629013</updated>
+      <workItem from="1464285169580" duration="79000" />
+      <workItem from="1464353586881" duration="493000" />
+      <workItem from="1464354104322" duration="12000" />
+      <workItem from="1464354177801" duration="10000" />
+      <workItem from="1464354249888" duration="16222000" />
+      <workItem from="1464613294433" duration="10456000" />
     </task>
     <task id="LOCAL-00017" summary="app_debug true bcoz i am the best">
       <created>1463669372550</created>
@@ -846,28 +621,177 @@
       <option name="project" value="LOCAL" />
       <updated>1464201020827</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Created controllers, views, and formatting">
+      <created>1464285229942</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1464285229942</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Created testing view">
+      <created>1464370283373</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370283373</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Minor changes">
+      <created>1464370303737</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370303737</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Minor changes">
+      <created>1464370322295</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370322295</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Datatables facade">
+      <created>1464370336038</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370336038</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Datatables">
+      <created>1464370349509</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370349509</updated>
+    </task>
+    <task id="LOCAL-00052" summary="wtf is this">
+      <created>1464370361948</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370361948</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Minor changes">
+      <created>1464370374359</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370374359</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Removed change password link">
+      <created>1464370441174</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370441174</updated>
+    </task>
+    <task id="LOCAL-00055" summary="DWloaded jquery if internet is down">
+      <created>1464370477600</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370477600</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Restructured the whole view">
+      <created>1464370502257</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370502257</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Datatables route">
+      <created>1464370533247</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370533247</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Script for notes&#10;">
+      <created>1464370600863</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370600863</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Changed file display depending on extension">
+      <created>1464370626318</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370626318</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Restructured controller">
+      <created>1464370653037</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370653037</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Minor changes">
+      <created>1464370703116</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370703116</updated>
+    </task>
+    <task id="LOCAL-00062" summary="File uploads&#10;">
+      <created>1464370727532</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370727532</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Datatables">
+      <created>1464370767631</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1464370767631</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added script link">
+      <created>1464613381742</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1464613381742</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Created script">
+      <created>1464613402504</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1464613402504</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124835000" />
+    <option name="totallyTimeSpent" value="152089000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-258" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25716332" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3474212" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23521505" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19246298" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3001346" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090176" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24856733" sideWeight="0.5047106" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -912,22 +836,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added UF and Tasks routes" />
-    <MESSAGE value="Created the view from scratch, added create buttons, UFs, Tasks display" />
-    <MESSAGE value="Created file" />
-    <MESSAGE value="Modified fillable, changed curs() for UF(), relationships stuff" />
-    <MESSAGE value="you know, migrations&#10;" />
-    <MESSAGE value="Created and finished view for creating an UF&#10;" />
-    <MESSAGE value="Created model" />
-    <MESSAGE value="Changed panel heading" />
-    <MESSAGE value="Did so many things cba to type them all&#10;" />
-    <MESSAGE value="Added container div to template" />
-    <MESSAGE value="Minor change" />
-    <MESSAGE value="Added deleteUF()" />
-    <MESSAGE value="Minor changes" />
-    <MESSAGE value="Delete Routes and Apunt routes" />
-    <MESSAGE value="Created file for future scripts" />
-    <MESSAGE value="Added return+delete buttons and modal windows" />
     <MESSAGE value="Created view for teachers, see user tasks" />
     <MESSAGE value="Added return button, entregables link, and download the file user has uploaded" />
     <MESSAGE value="Added $entregat boolean to show() and created entregables()" />
@@ -937,7 +845,23 @@
     <MESSAGE value="Migrations" />
     <MESSAGE value="Created Model" />
     <MESSAGE value="Created Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Controller" />
+    <MESSAGE value="Created controllers, views, and formatting" />
+    <MESSAGE value="Created testing view" />
+    <MESSAGE value="Datatables facade" />
+    <MESSAGE value="wtf is this" />
+    <MESSAGE value="Removed change password link" />
+    <MESSAGE value="DWloaded jquery if internet is down" />
+    <MESSAGE value="Restructured the whole view" />
+    <MESSAGE value="Datatables route" />
+    <MESSAGE value="Script for notes&#10;" />
+    <MESSAGE value="Changed file display depending on extension" />
+    <MESSAGE value="Restructured controller" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="File uploads&#10;" />
+    <MESSAGE value="Datatables" />
+    <MESSAGE value="Added script link" />
+    <MESSAGE value="Created script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,157 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gironasocialmedia/gironasocialmedia/app/views/companies/programations.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="1891" column="46" selection-start-line="1891" selection-start-column="46" selection-end-line="1891" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gironasocialmedia/gironasocialmedia/app/views/companies/create_programming.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="90" column="23" selection-start-line="29" selection-start-column="4" selection-end-line="90" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_18_164752_add_uf_id_to_tasks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="208" column="52" selection-start-line="208" selection-start-column="52" selection-end-line="208" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gironasocialmedia/gironasocialmedia/app/views/companies/list_socialnetwork.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="122" column="90" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/usernew.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="58" column="108" selection-start-line="58" selection-start-column="80" selection-end-line="58" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_12_172339_create_curs_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../gironasocialmedia/gironasocialmedia/app/controllers/ProgrammingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4351">
-          <caret line="532" column="37" selection-start-line="532" selection-start-column="37" selection-end-line="532" selection-end-column="37" />
-          <folding>
-            <element signature="n#index#0;n#ProgrammingsController#0;n#!!top" expanded="false" />
-            <element signature="n#create#0;n#ProgrammingsController#0;n#!!top" expanded="false" />
-            <element signature="n#store#0;n#ProgrammingsController#0;n#!!top" expanded="false" />
-            <marker date="1463037693882" expanded="true" signature="2316:2374" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="2804:2853" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="19149:19195" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="29130:29193" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="29339:29400" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="33363:33421" placeholder="UPDATE histo... " />
-            <marker date="1463037693882" expanded="true" signature="33485:33545" placeholder="UPDATE histo... " />
-            <marker date="1463037693882" expanded="true" signature="41571:41620" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="43360:43409" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="51729:51777" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="51859:51908" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="77815:77861" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="82867:82926" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="83881:83932" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="83985:84041" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="84094:84152" placeholder="UPDATE progr... " />
-            <marker date="1463037693882" expanded="true" signature="84574:84632" placeholder="UPDATE histo... " />
-            <marker date="1463037693882" expanded="true" signature="84692:84752" placeholder="UPDATE histo... " />
-            <marker date="1463037693882" expanded="true" signature="92775:92830" placeholder="UPDATE histo... " />
-            <marker date="1463037693882" expanded="true" signature="92900:92946" placeholder="UPDATE progr... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_175559_modify_description_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_12_171328_create_cursos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_25_130848_add_entregat_tard_to_user_task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_174238_create_user_task_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_18_133837_create_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_141045_add_file_to_tasks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -1136,13 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1195,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/UnitatFormativa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_25_150207_add_id_to_user_task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1215,38 +973,6 @@
         <state relative-caret-position="408">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="96" column="90" selection-start-line="96" selection-start-column="90" selection-end-line="96" selection-end-column="90" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-            <element signature="e#1042#1681#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1264,108 +990,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+    <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="240" column="43" selection-start-line="240" selection-start-column="43" selection-end-line="240" selection-end-column="43" />
+        <state relative-caret-position="-281">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DatatablesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/allusers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UnitatFormativa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="294">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CursController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="67" column="83" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cursos/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="228" column="64" selection-start-line="228" selection-start-column="64" selection-end-line="230" selection-end-column="68" />
+        <state relative-caret-position="1275">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="79" selection-end-column="11" />
           <folding>
-            <marker date="1464284500113" expanded="true" signature="8407:8472" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="1551:1570" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="1579:1594" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2181:2200" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2209:2219" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2454:2473" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2482:2488" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2714:2733" placeholder="..." />
+            <marker date="1464363956113" expanded="true" signature="2742:2752" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Curs.php">
+    <entry file="file://$PROJECT_DIR$/public/js/scriptcurs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
           <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
+            <marker date="1464371232728" expanded="true" signature="65:77" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/scriptnotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <marker date="1464615699201" expanded="true" signature="93:105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_12_171328_create_cursos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ExportarXML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="37" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1021">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/XMLExportar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+          <folding>
+            <marker date="1464618103477" expanded="true" signature="1721:1735" placeholder="SELECT * FRO... ${$table[0]}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        <state relative-caret-position="-192">
+          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
           <folding>
-            <marker date="1464284803705" expanded="true" signature="5713:5722" placeholder="..." />
+            <marker date="1464621151767" expanded="true" signature="6292:6301" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/usernew.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="e#1687#3068#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/firstSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-790">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Curs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding>
+            <element signature="e#1185#2024#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/cursos/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="578">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/cursos/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="383">
+          <caret line="248" column="30" selection-start-line="248" selection-start-column="30" selection-end-line="248" selection-end-column="30" />
           <folding>
-            <element signature="e#2208#2252#0#HTML" expanded="true" />
+            <marker date="1464621249297" expanded="true" signature="8407:8472" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CursController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="138" column="9" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#7094#7828#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

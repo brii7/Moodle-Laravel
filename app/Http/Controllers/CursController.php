@@ -14,18 +14,21 @@ class CursController extends Controller
 {
     public function index(){
 
-        $user = Auth::user();
-        $mycursos = $user->cursos();
         $cursos = Curs::all();
 
         return view('cursos.index',
             [
                 'cursos' => $cursos,
-                'mycursos' => $mycursos,
             ]);
     }
 
     public function createForm(){
+
+        if(!Auth::user()->isAdmin()){
+            return Redirect::route('cursos')
+                ->with('type_message', "danger")
+                ->with('message', "Nice try");
+        }
 
         $professors = User::where('role','=','teacher')->get();
         return view('cursos.create', [
@@ -122,12 +125,17 @@ class CursController extends Controller
         $user = Auth::user();
         $inscrit = $curs->members->contains($user->id);
 
-        if($inscrit || $user->isAdmin() || $user->isTeacher()){
+        if($inscrit || $user->isAdmin() || $curs->teacherid() == $user->id){
             return view('cursos.show', [
                 'curs' => $curs,
                 'unitatsformatives' => $unitatsformatives,
                 'professors' => $professors,
             ]);
+        }
+        elseif($curs->teacherid() != $user->id){
+            return Redirect::route('cursos')
+                ->with('type_message', "danger")
+                ->with('message', "No ets el professor d'aquest curs");
         }
 
         return Redirect::route('cursos')
@@ -150,6 +158,12 @@ class CursController extends Controller
     }
     
     public function createUFForm(){
+
+        if(!Auth::user()->isAdmin()){
+            return Redirect::route('cursos')
+                ->with('type_message', "danger")
+                ->with('message', "Nice try");
+        }
 
         return view('cursos.createUF');
         
