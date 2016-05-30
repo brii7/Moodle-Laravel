@@ -5,7 +5,14 @@ $( document ).ready(function() {
 
     $('.hide-show-button').on("click", function(){
 
-        $(this).closest('.uf').find('.panel-body').toggle();
+        $(this).closest('.uf').find('.panel-body').slideToggle();
+
+        if($(this).find('i').hasClass('fa-arrow-up')){
+            $(this).find('i').removeClass('fa-arrow-up').addClass('fa-arrow-down');
+        }else{
+            $(this).find('i').removeClass('fa-arrow-down').addClass('fa-arrow-up');
+
+        }
 
 
     });
