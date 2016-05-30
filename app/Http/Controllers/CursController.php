@@ -135,7 +135,7 @@ class CursController extends Controller
         elseif($curs->teacherid() != $user->id){
             return Redirect::route('cursos')
                 ->with('type_message', "danger")
-                ->with('message', "No ets el professor d'aquest curs");
+                ->with('message', "No formes part d'aquest curs");
         }
 
         return Redirect::route('cursos')
