@@ -25,10 +25,11 @@ use App\Task;
                 </div>
                 <div class="panel-body">
                     @foreach($cursosarray as $curs)
-                        <h2>{{$curs->name}}</h2>
+                        <h2 style="margin-top: 40px;">{{$curs->name}}</h2>
                         @foreach($curs->UFs as $uf)
+
                             <h3>{{$uf->name}}</h3>
-                            <table class="table table-responsive table-bordered uf">
+                            <table style="margin-top: 10px; margin-bottom: 30px" class="table table-responsive table-bordered uf">
                                 <th style="width:60%">Tasca</th>
                                 <th>Entregat tard</th>
                                 <th>Nota</th>
@@ -61,9 +62,9 @@ use App\Task;
                                         @endif
                                     </tr>
                                 @endforeach
-                                <tr>
+                                <tr style="font-weight: bold">
                                     <td colspan="2">Nota final</td>
-                                    <td class="notafinal"></td>
+                                    <td  class="notafinal"></td>
                                 </tr>
                             </table>
                         @endforeach
