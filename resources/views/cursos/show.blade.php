@@ -256,5 +256,9 @@
                 </div>
             </div>
 
-
+        </div>
+    </div>
+@endsection
+@section('scripts')
+    <script src="/js/scriptcurs.js"></script>
 @endsection
