@@ -54,9 +54,9 @@ use App\Task;
                                             {{DB::table('user_task')->where('task_id',$tasca->id)
                                                                     ->where('user_id',$user->id)->value('nota')}}
                                         </td>
-                                        @elseif(DB::table('user_task')->where('task_id',$tasca->id)
+                                        @elseif(!DB::table('user_task')->where('task_id',$tasca->id)
                                                                     ->where('user_id',$user->id)->value('corregit'))
-                                            <td class="noentregat" style="color:red">Entregat però no corregit</td>
+                                            <td class="noentregat" style="color:red">No corregit</td>
                                         @else
                                             <td class="noentregat" style="color:red">No entregat</td>
                                         @endif
