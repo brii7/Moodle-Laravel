@@ -57,7 +57,7 @@
                                 <form action="{{ url('cursos/'.$curs->id).'/esborrar'}}" method="POST">
                                     {{ csrf_field() }}
                                     <button type="submit" id="inscriure-curs-{{ $curs->id }}" class="btn-warning">
-                                        <i class="fa fa-btn fa-cross"></i>Anular inscripció
+                                        <i class="fa fa-btn fa-close"></i>Anular inscripció
                                     </button>
                                 </form>
                             @else
