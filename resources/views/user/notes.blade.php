@@ -38,27 +38,33 @@ use App\Task;
                                         <td>
                                             {{\App\Task::find($tasca->id)->name}}
                                         </td>
-                                        @if(DB::table('user_task')->where('task_id',$tasca->id)
-                                                                    ->where('user_id',$user->id)->value('entregat_tard'))
+                                        @if(DB::table('user_task')->where('task_id',$tasca->id)->where('user_id',$user->id)->value('entregat_tard'))
+
                                             <td style="color:red">
                                                 Sí.
                                             </td>
+
                                         @else
+
                                             <td>
-                                                No
+                                                No.
                                             </td>
+
                                         @endif
-                                        @if(DB::table('user_task')->where('task_id',$tasca->id)
-                                                                    ->where('user_id',$user->id)->value('corregit'))
-                                        <td class="nota">
-                                            {{DB::table('user_task')->where('task_id',$tasca->id)
-                                                                    ->where('user_id',$user->id)->value('nota')}}
-                                        </td>
-                                        @elseif(!DB::table('user_task')->where('task_id',$tasca->id)
-                                                                    ->where('user_id',$user->id)->value('corregit'))
+                                        @if(DB::table('user_task')->where('task_id',$tasca->id)->where('user_id',$user->id)->value('corregit'))
+
+                                            <td class="nota">
+                                                {{DB::table('user_task')->where('task_id',$tasca->id)->where('user_id',$user->id)->value('nota')}}
+                                            </td>
+
+                                        @elseif(DB::table('user_task')->where('task_id',$tasca->id)->where('user_id',$user->id)->value('nota')==0)
+
                                             <td class="noentregat" style="color:red">No corregit.</td>
+
                                         @else
+
                                             <td class="noentregat" style="color:red">No entregat.</td>
+
                                         @endif
                                     </tr>
                                 @endforeach
