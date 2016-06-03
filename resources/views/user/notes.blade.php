@@ -61,10 +61,6 @@ use App\Task;
 
                                             <td class="noentregat" style="color:red">No corregit.</td>
 
-                                        @else
-
-                                            <td class="noentregat" style="color:red">No entregat.</td>
-
                                         @endif
                                     </tr>
                                 @endforeach
