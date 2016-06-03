@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80946191-2d19-48e0-aeb3-fc7280657eae" name="Default" comment="Minor changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146461383461520.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146462085413788.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/27/146462089121158.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/5/28/146462619943527.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462088489366.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462620725214.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tasques/4/6/29/146462621883235.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Commands/XMLExportar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/firstSetup.blade.php" />
+    <list default="true" id="80946191-2d19-48e0-aeb3-fc7280657eae" name="Default" comment="file upload">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CursController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/scriptnotes.js" afterPath="$PROJECT_DIR$/public/js/scriptnotes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/showTaskEntregables.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" afterPath="$PROJECT_DIR$/resources/views/cursos/showUFTask.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/user/notes.blade.php" afterPath="$PROJECT_DIR$/resources/views/user/notes.blade.php" />
     </list>
     <ignored path="Moodle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,20 +28,52 @@
       <file leaf-file-name="CursController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CursController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="138" column="9" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="9" />
+            <state relative-caret-position="2397">
+              <caret line="148" column="32" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
+              <folding>
+                <element signature="e#3045#3062#0#HTML" expanded="true" />
+                <marker date="1464945952323" expanded="true" signature="1624:1643" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="1652:1667" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2254:2273" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2282:2292" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2527:2546" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2555:2561" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2788:2807" placeholder="..." />
+                <marker date="1464945952323" expanded="true" signature="2816:2826" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="391">
               <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="e#7094#7828#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scriptcurs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/scriptcurs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <marker date="1464628632844" expanded="true" signature="65:77" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -116,9 +127,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/allusers.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/notes.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/scriptcurs.js" />
         <option value="$PROJECT_DIR$/public/js/scriptnotes.js" />
         <option value="$PROJECT_DIR$/resources/views/cursos/createUFTask.blade.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/ExportarXML.php" />
@@ -133,8 +142,10 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/cursos/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
+        <option value="$PROJECT_DIR$/public/js/scriptcurs.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CursController.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/notes.blade.php" />
       </list>
     </option>
   </component>
@@ -155,10 +166,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-258" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,6 +250,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cursos" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -254,6 +287,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moodle-Laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,9 +383,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_d76a6a98c9315931ec4927243517bc09e9b731a0/cmd/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="artisan.php&#9;FILE&#9;file://C:/Users/Brian/Documents/GitHub/Moodle-Laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php" />
   </component>
@@ -416,49 +481,11 @@
       <workItem from="1464354104322" duration="12000" />
       <workItem from="1464354177801" duration="10000" />
       <workItem from="1464354249888" duration="16222000" />
-      <workItem from="1464613294433" duration="10456000" />
-    </task>
-    <task id="LOCAL-00017" summary="app_debug true bcoz i am the best">
-      <created>1463669372550</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669372551</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Added fillable fields, changed tasks() for UFs()">
-      <created>1463669408916</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669408916</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Modified show(), created createUFForm(), createUF, showUFTask(), addUFTaskForm(), addUFTask()">
-      <created>1463669495794</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669495794</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Added ul list-style: none rule">
-      <created>1463669520077</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669520077</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Added UF and Tasks routes">
-      <created>1463669547207</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669547207</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Created the view from scratch, added create buttons, UFs, Tasks display">
-      <created>1463669596915</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1463669596915</updated>
+      <workItem from="1464613294433" duration="10475000" />
+      <workItem from="1464628421064" duration="421000" />
+      <workItem from="1464628978918" duration="399000" />
+      <workItem from="1464944958444" duration="20000" />
+      <workItem from="1464945665628" duration="290000" />
     </task>
     <task id="LOCAL-00023" summary="Created file">
       <created>1463669803618</created>
@@ -761,11 +788,53 @@
       <option name="project" value="LOCAL" />
       <updated>1464613402504</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Final commit">
+      <created>1464627073963</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1464627073963</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Script animation - change fa-arrow class">
+      <created>1464628663129</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1464628663130</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Changed return message">
+      <created>1464628836804</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1464628836804</updated>
+    </task>
+    <task id="LOCAL-00069" summary="css minor changes">
+      <created>1464629317895</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1464629317895</updated>
+    </task>
+    <task id="LOCAL-00070" summary="minor change boolean validation -&gt; corregit">
+      <created>1464945852399</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1464945852415</updated>
+    </task>
+    <task id="LOCAL-00071" summary="file upload">
+      <created>1464945906108</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1464945906108</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152089000" />
+    <option name="totallyTimeSpent" value="153238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,17 +846,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-258" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3474212" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36838123" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19246298" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19148937" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090176" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24856733" sideWeight="0.5047106" order="3" side_tool="true" content_ui="tabs" />
@@ -836,12 +905,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created view for teachers, see user tasks" />
-    <MESSAGE value="Added return button, entregables link, and download the file user has uploaded" />
-    <MESSAGE value="Added $entregat boolean to show() and created entregables()" />
-    <MESSAGE value="Added apunts() relationship" />
-    <MESSAGE value="Minor changes to clarify reading" />
-    <MESSAGE value="Uploaded files" />
     <MESSAGE value="Migrations" />
     <MESSAGE value="Created Model" />
     <MESSAGE value="Created Controller" />
@@ -861,7 +924,13 @@
     <MESSAGE value="Datatables" />
     <MESSAGE value="Added script link" />
     <MESSAGE value="Created script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created script" />
+    <MESSAGE value="Final commit" />
+    <MESSAGE value="Script animation - change fa-arrow class" />
+    <MESSAGE value="Changed return message" />
+    <MESSAGE value="css minor changes" />
+    <MESSAGE value="minor change boolean validation -&gt; corregit" />
+    <MESSAGE value="file upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="file upload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,38 +1137,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="79" selection-end-column="11" />
-          <folding>
-            <marker date="1464363956113" expanded="true" signature="1551:1570" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="1579:1594" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2181:2200" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2209:2219" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2454:2473" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2482:2488" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2714:2733" placeholder="..." />
-            <marker date="1464363956113" expanded="true" signature="2742:2752" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/scriptcurs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <marker date="1464371232728" expanded="true" signature="65:77" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <marker date="1464615699201" expanded="true" signature="93:105" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,23 +1155,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ExportarXML.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="37" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ExportarXML.php" />
     <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1021">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,9 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding>
-            <marker date="1464618103477" expanded="true" signature="1721:1735" placeholder="SELECT * FRO... ${$table[0]}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,9 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
-          <folding>
-            <marker date="1464621151767" expanded="true" signature="6292:6301" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-790">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,7 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,26 +1288,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="248" column="30" selection-start-line="248" selection-start-column="30" selection-end-line="248" selection-end-column="30" />
-          <folding>
-            <marker date="1464621249297" expanded="true" signature="8407:8472" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CursController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="138" column="9" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="9" />
+        <state relative-caret-position="2397">
+          <caret line="148" column="32" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="391">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="e#7094#7828#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/scriptcurs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1464628632844" expanded="true" signature="65:77" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/notes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
+          <folding>
+            <element signature="e#3045#3062#0#HTML" expanded="true" />
+            <marker date="1464945952323" expanded="true" signature="1624:1643" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="1652:1667" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2254:2273" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2282:2292" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2527:2546" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2555:2561" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2788:2807" placeholder="..." />
+            <marker date="1464945952323" expanded="true" signature="2816:2826" placeholder="..." />
           </folding>
         </state>
       </provider>
